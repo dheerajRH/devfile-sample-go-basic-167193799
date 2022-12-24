@@ -10,7 +10,7 @@ metadata:
     pipelinesascode.tekton.dev/on-target-branch: '[main,master]'
   creationTimestamp: null
   labels:
-    appstudio.openshift.io/application: test-app-167190647
+    appstudio.openshift.io/application: test-app-167190658
     appstudio.openshift.io/component: java-quarkus
     pipelines.appstudio.openshift.io/type: build
   name: java-quarkus-on-pull-request
