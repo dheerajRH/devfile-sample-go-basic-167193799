@@ -10,7 +10,7 @@ metadata:
     pipelinesascode.tekton.dev/on-target-branch: '[main,master]'
   creationTimestamp: null
   labels:
-    appstudio.openshift.io/application: test-app-167193768
+    appstudio.openshift.io/application: test-app-167193796
     appstudio.openshift.io/component: java-quarkus
     pipelines.appstudio.openshift.io/type: build
   name: java-quarkus-on-pull-request
@@ -18,7 +18,7 @@ metadata:
 spec:
   params:
   - name: dockerfile
-    value: https://raw.githubusercontent.com/dheerajRH/devfile-sample-go-basic-167193772/main/docker/Dockerfile
+    value: https://raw.githubusercontent.com/dheerajRH/devfile-sample-go-basic-167193799/main/docker/Dockerfile
   - name: git-url
     value: '{{repo_url}}'
   - name: hacbs
